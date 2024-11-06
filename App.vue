@@ -11,7 +11,7 @@
         <input type="text" 
         name="" 
         class="search-bar" 
-        placeholder="Search...."
+        placeholder="Search Country , Capital or District...."
         v-model="query" 
         @keypress="fetchWeather"
         />
@@ -140,14 +140,14 @@ main {
   background: none;
 
   background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 0px 16px 0px 16px;
+  border-radius: 16px 16px 16px 16px;
   transition: 0.4s;
 }
 
 .search-box .search-bar:focus{
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
   background-color: rgba(255, 255, 255, 0.75);
-  border-radius: 16px 0px 16px 0px;
+  border-radius: 16px 16px 16px 16px;
 }
 
 .location-box .location {
