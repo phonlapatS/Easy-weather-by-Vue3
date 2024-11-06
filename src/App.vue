@@ -11,7 +11,7 @@
         <input type="text" 
         name="" 
         class="search-bar" 
-        placeholder="Search...."
+        placeholder="Search Country , Capital or District...."
         v-model="query" 
         @keypress="fetchWeather"
         />
